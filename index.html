@@ -1,0 +1,60 @@
+    <!DOCTYPE html>
+    <html>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <style>
+        body,h1 {font-family: "Raleway", sans-serif}
+        body, html {height: 100%}
+        body{
+            max-width: 300px;
+            margin: auto;
+            #background: url("icon.png") ;
+            #opacity: 0.5;
+
+            #background-color: wheat}
+        input{
+            #background-color: bisque;
+
+        }
+        button {
+            #background-color: bisque;
+        }
+
+    </style>
+    <body style="margin-top: 20%">
+    <div style="text-align: center">
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text">How many ICONS point you have right now?</span>
+        </div>
+        <input type="text" aria-label="First name" class="form-control" id="pnow" value="">
+        <button class="btn btn-outline-primary" onclick="myFunction1()">Enter</button>
+    </div>
+    <p id="demo1" class="d-flex justify-content-center" >-</p>
+
+
+
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text">How many ICONS point you spent?</span>
+        </div>
+        <input type="text" aria-label="First name" class="form-control" id="pspent" value="">
+        <button class="btn btn-outline-primary" onclick="myFunction2()">Enter</button>
+    </div>
+    <p style="text-align: center" id="demo2" class="d-flex justify-content-center" >-</p>
+
+
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text">The weeks you need to get the prime ICON is :-</span>
+        </div>
+        <button class="btn btn-outline-primary" onclick="myFunction3()">Show</button>
+    </div>
+    <p id="total" class="d-flex justify-content-center">-</p>
+    </div>
+    <script src="2.js"></script>
+    </body>
+    </html>
