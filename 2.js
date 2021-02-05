@@ -21,7 +21,7 @@ function myFunction2() {
         if(document.getElementById("demo2").value){
         }
         else {
-            document.getElementById("demo2").innerHTML = Math.ceil((4000-total)/235) + " Weeks";
+            document.getElementById("demo2").innerHTML = "You need "+Math.ceil((4000-total)/235) + " Weeks";
         }
 
 
